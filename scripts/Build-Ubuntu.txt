@@ -1,0 +1,16 @@
+#!/bin/bash
+
+sudo -i
+
+apt-get update
+apt-get dist-upgrade
+
+apt-get install python-glanceclient -y
+apt-get install python-keystoneclient -y
+apt-get install python-novaclient -y
+apt-get install python-quantumclient -y
+apt-get install python-swiftclient -y
+apt-get install python-openstackclient -y
+apt-get install python-cinderclient -y
+apt-get install python-ceilometerclient -y
+apt-get install python-heatclient -y
