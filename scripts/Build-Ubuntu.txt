@@ -2,9 +2,14 @@
 
 sudo -i
 
+# update your package list
 apt-get update
+
+# install updates
 apt-get dist-upgrade
 
+
+# install the OpenStack Python clients
 apt-get install python-glanceclient -y
 apt-get install python-keystoneclient -y
 apt-get install python-novaclient -y
