@@ -9,12 +9,13 @@ apt-get update
 apt-get dist-upgrade
 
 # install the OpenStack Python clients
-apt-get install python-glanceclient -y
-apt-get install python-keystoneclient -y
-apt-get install python-novaclient -y
-apt-get install python-quantumclient -y
-apt-get install python-swiftclient -y
-apt-get install python-openstackclient -y
-apt-get install python-cinderclient -y
-apt-get install python-ceilometerclient -y
-apt-get install python-heatclient -y
+apt-get --yes --force-yes install python-glanceclient
+apt-get --yes --force-yes install python-keystoneclient
+apt-get --yes --force-yes install python-novaclient
+apt-get --yes --force-yes install python-quantumclient
+apt-get --yes --force-yes install python-swiftclient
+apt-get --yes --force-yes install python-openstackclient
+apt-get --yes --force-yes install python-cinderclient
+apt-get --yes --force-yes install python-ceilometerclient
+apt-get --yes --force-yes install python-heatclient
+apt-get --yes --force-yes install python-neutronclient
